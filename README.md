@@ -24,3 +24,18 @@ These designs are provided as is and I take no responsibility if it breaks anyth
 | CRW017 | Framework UART module                                                                                             |
 | CRW021 | Framework Oscilloscope module                                                                                     |
 | CRW022 | mikroBUS dual 7-segment display module                                                                            |
+| CRW023 | Framework RS232 module                                                                                            |
+| CRW024 | Framework keyboard breakout                                                                                       |
+| CRW025 | Framework USB-C-C Module                                                                                          |
+| CRW026 | PIC32MX100/200 mikroBUS CTMU Slider                                                                               |
+| CRW027 | PIC32MX100/200 mikroBUS CTMU Button                                                                               |
+| CRW028 | RISC-V-based Arduino board                                                                                        |
+| CRW029 | UART to RS232 Adapter for my openWRT router                                                                       |
+| CRW030 | mikroBUS DMX Adapter                                                                                              |
+| CRW031 | Flinduino Mini                                                                                                    |
+| CRW032 | Flinduino Analog Shield - SMD                                                                                     |
+| CRW033 | Motor Control board mikroBUS adapter                                                                              |
+| CRW034 | mikroBUS OLED display adapter|
+| CRW035 | ??|
+| CRW036 | Flinduino Hexapod Shield|
+| CRW037 | Flinduino EXP breakout|
