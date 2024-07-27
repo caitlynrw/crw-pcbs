@@ -6,6 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Flinduino Mini")
+		(date "2024-07-27")
+		(rev "A")
 	)
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
@@ -5295,7 +5297,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 154.94) (xy 189.23 154.94)
+			(xy 184.15 154.94) (xy 187.96 154.94)
 		)
 		(stroke
 			(width 0)
@@ -6025,7 +6027,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 151.13) (xy 198.12 151.13)
+			(xy 184.15 151.13) (xy 198.12 151.13)
 		)
 		(stroke
 			(width 0)
@@ -6115,7 +6117,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 154.94) (xy 189.23 157.48)
+			(xy 187.96 154.94) (xy 187.96 157.48)
 		)
 		(stroke
 			(width 0)
@@ -6305,7 +6307,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 172.72) (xy 189.23 175.26)
+			(xy 187.96 172.72) (xy 187.96 175.26)
 		)
 		(stroke
 			(width 0)
@@ -6795,7 +6797,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 175.26) (xy 198.12 175.26)
+			(xy 187.96 175.26) (xy 198.12 175.26)
 		)
 		(stroke
 			(width 0)
@@ -7281,7 +7283,7 @@
 		(uuid "65e56a3e-281e-4b48-9a74-29c876755b51")
 	)
 	(label "RB15{slash}AN9{slash}SCK2"
-		(at 186.69 151.13 0)
+		(at 184.15 151.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7677,7 +7679,7 @@
 		(uuid "e929aca4-5d66-46d8-b910-78ccdb5355f4")
 	)
 	(label "RA4"
-		(at 186.69 154.94 0)
+		(at 184.15 154.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8031,7 +8033,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 189.23 161.29 0)
+		(at 187.96 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8040,7 +8042,7 @@
 		(fields_autoplaced yes)
 		(uuid "0abc7f16-0c03-42c5-a847-e1e10acd6596")
 		(property "Reference" "R3"
-			(at 191.77 160.0199 0)
+			(at 190.5 160.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8049,7 +8051,7 @@
 			)
 		)
 		(property "Value" "200R"
-			(at 191.77 162.5599 0)
+			(at 190.5 162.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8058,7 +8060,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 187.452 161.29 90)
+			(at 186.182 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8067,7 +8069,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 189.23 161.29 0)
+			(at 187.96 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8076,7 +8078,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 189.23 161.29 0)
+			(at 187.96 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10277,7 +10279,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 189.23 168.91 90)
+		(at 187.96 168.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10286,7 +10288,7 @@
 		(fields_autoplaced yes)
 		(uuid "86bc1e75-ec82-4664-b894-98217cc48c23")
 		(property "Reference" "D2"
-			(at 193.04 169.2274 90)
+			(at 191.77 169.2274 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10295,7 +10297,7 @@
 			)
 		)
 		(property "Value" "LED2"
-			(at 193.04 171.7674 90)
+			(at 191.77 171.7674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10303,8 +10305,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
-			(at 189.23 168.91 0)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 187.96 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10313,7 +10315,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 189.23 168.91 0)
+			(at 187.96 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10322,7 +10324,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 189.23 168.91 0)
+			(at 187.96 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12132,7 +12134,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 154.94 177.8 0)
 			(effects
 				(font
@@ -12268,7 +12270,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 198.12 168.91 0)
 			(effects
 				(font
